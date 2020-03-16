@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.top{
+	background-color: transparent;
+	position: fixed;
+	height: 50px;
+	width: 100%;
+	float: left;
+}
+#one{
+	margin-left: 10px;
+	margin-top: 2px;
+	width: 15px;
+	height: 15px;
+	opacity: 1;
+	float: left; 
+}
+#two{
+	margin-left: 1px;
+	margin-top: 5px;
+	width: 15px;
+	height: 15px;
+	color: #fff;
+	opacity: 1;
+	float: left;
+}
+#three{
+	margin-left: 3px;
+	margin-top: 5px;
+	width: 15px;
+	height: 15px;
+	color: #fff;
+	opacity: 1;
+	float: left;
+}
+.map #map{
+	width:1000px;
+	position: absolute;	
+	/*background-attachment:fixed;*/	
+	background-position: center top;	
+}
+.top .border{
+	width: 70px;
+	height: 25px;
+	border: 1px solid #eaeaea;
+	margin-top: 16px;
+	margin-right: 10px;
+	right: 1px;
+	float: left;
+	background-color:transparent;
+	border-radius: 15px;
+	position: fixed;
+}
+.top #back{
+	margin-top: 20px;
+	margin-left: 10px;
+	width: 20px;
+	height: 20px;
+	float: left;
+}
+.top #title{
+	color: #fff;
+	margin-top: 17px;
+	margin-left: 10px;
+	font-size: 20px;
+	float: left;
+}	
+#left-cloud{
+	width: 25%;
+	position: absolute;
+	top:340px;
+	left: 200px;
+	opacity: 0.6;
+	animation: move 18s linear infinite;
+}
+@keyframes move {
+	0%{transform: translateX(0);}
+	50%{transform: translateX(500px);}
+	100%{transform: translateX(-500px);}
+}
+#center-cloud{
+	width: 20%;
+	position: absolute;
+	top: 100px;
+	left: 400px;
+	opacity: 0.6;
+	animation: move 18s linear infinite;
+}
+#right-cloud{
+	width: 20%;
+	position: absolute;
+	top: 150px;
+	left: 630px;
+	opacity: 0.6;
+	animation: move 18s linear infinite;
+}
+#zhengshu {
+	width: 18%;
+	position: absolute;
+	top: 70px;
+	left: 30px;
+	border-radius: 50%;
+}

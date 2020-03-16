@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;/*去掉a标签的下划线*/
+	list-style: none;/*ul列表前的圆点去掉*/
+}
+html,body{
+	width: 100%;
+	height: 5000px;
+	/*overflow: hidden;*/
+	
+}
+.zi{
+	display: flex;
+	top: 0;
+}
+.zi li{   /*环保项目*/
+	font-size: 50px;
+	
+}
+.tu{   /*网页大盒子*/
+	/*background: chartreuse;*/
+	width: 100%;
+	height: 100%;
+}
+.diyi{  /*第一行卡片*/
+	background-color: cornsilk;
+	width: 100%;
+	height: 650px;
+}
+.tu1{  /*树苗盒子*/
+	background: saddlebrown;
+	height: 600px;
+	width: 400px;
+	float: left;
+	margin-left: 30px;
+}
+
+.tu2{
+	background: saddlebrown;
+	height: 600px;
+	width: 400px;
+	float:right;
+	margin-right: 120px;
+	position: relative;
+	
+}
+.ming{   /*树名*/
+	height: 100px;
+	width: 45%;
+	position: absolute;
+}
+
+.aa{
+	height: 20px;
+	width: 60%;
+	background: #cecece;
+	position: relative;
+	border-radius: 25%;
+	top: 10px;
+	left: 10px;
+}
+.aa div{
+	height: 20px;
+	width: 10%;
+	background: chartreuse;
+	border-radius: 25%;
+}
+.ming li{
+	font-size: 3.5em;
+}
+.bb{
+	font-size: 6px;
+	position: relative;
+	top: -20px;
+	left: 8px;
+}
+.cc{
+	font-size: 10px;
+	position: relative;
+	top: -20px;
+	left: 250px;
+}
+.tu1 img{
+	height: 100%;
+	width: 100%;
+}
+.tu2 img{
+	height: 100%;
+	width: 100%;
+}

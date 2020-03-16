@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.top {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    /*保证该层能一直显示在最上！*/
+    z-index: 999;
+    background-color: rgba(255,255,255,0.5);
+}
+.top #title {
+	font-size: 48px;
+	position: absolute;
+	width: 200px;
+	height: 50px;
+	color: white;
+	top: 20px;
+	left: 10%;
+}
+.top img {
+    width: 50px;
+    height: 50px;
+    margin-top: 28px;
+    margin-left: 20px;
+    float: left;
+}
+/* 网页进行全屏的设置，满足不同的分辨率的电脑外观*/
+/*html,body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}*/
+/* 考虑div如果里面要加入背景图片，则必须要设置div的高度*/
+/*div {
+	height: 100%;
+}*/
+.content{
+	width: 100%;
+	position:relative;	
+	overflow: hidden;
+}
+.content #bg{
+	width: 100%;
+}
+.content .font {
+	position: absolute;
+	width: 90%;
+	height: 30%;
+	top: 78%;
+	left: 18%;
+}
+.content .font p{
+	position: absolute;
+	width: 80%;
+	height: 20%;
+	font-size: 42px;
+	letter-spacing: 3px;
+}
+.content .font .faqihezhong {
+	position: absolute;
+	width: 55%;
+	height: 20%;
+	border-radius: 46px;
+	top: 18%;
+	left: 8%;
+	background-color: green;
+}
+.content .font .box p{
+	font-size: 44px;
+	position: absolute;
+	top: 18%;
+	left: 30%;
+}
+.content #hand{
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	top: 85%;
+	left: 65%;
+	animation: move 1s linear  infinite alternate;
+}
+@keyframes move {
+	from {
+		top: 85%;
+		left: 65%;
+	}
+	to {
+		top: 82%;
+		left: 62%;
+	}
+}
+#fri {
+	width: 100%;
+}

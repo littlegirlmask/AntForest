@@ -1,0 +1,178 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+.beijing{
+	display: flex;
+	background-image: url(../img/bacImg-index.png);
+	height: 90rem;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.right {
+	position: fixed;
+	top: 30px;
+	left: 50px;
+	color: white;
+	font-size: 50px;
+}
+
+.haoyou{
+	position: absolute;
+	top: 9rem;
+	right: 0;
+	font-size: 50px;
+	background-color: rgba(244,211,210,0.2);
+	display: flex;
+	z-index: 999;
+	border-radius: 100px;
+}
+.haoyou img{
+	width: 4rem;
+	height:4rem;
+	border-radius: 50%;
+}
+.cloud{
+	width: 100%
+	height: auto;
+	position: absolute;
+	top: 9.3rem;
+	overflow: hidden;
+	z-index: 888;
+}
+.linemove {
+	/* 执行一个动画 animation 属性*/
+	animation: linemove 20s linear infinite;
+}
+
+@keyframes linemove{
+	from{
+		left: -234px;
+	}
+	to{
+		left: 740px;
+	}
+}
+.small{
+	width: 100%
+	height: auto;
+	position: absolute;
+	top: 19.3rem;
+	overflow: hidden;
+	z-index: 888;
+}
+.smalllmove {
+	/* 执行一个动画 animation 属性*/
+	animation: smallmove 20s linear infinite;
+}
+@keyframes smallmove{
+	from{
+		right: 0px;
+	}
+	to{
+		right:800px;
+	}
+}
+.ditu{
+	position: absolute;
+	right:20px;
+	top:15rem;
+	z-index: 890;
+}
+.ditu img{
+	width: 6rem;
+	height: 6rem;
+	display: block;
+}
+.tree{
+	position: absolute;
+	top: 65rem;
+	left: 48%;
+	margin: auto;
+}
+.qiu{
+	position: absolute;
+	top:30rem;
+	left: 20rem;
+}
+.qiu span{
+	text-align: center;
+	background-image: url(../img/backImg-0002.png);
+	background-repeat: no-repeat;
+	display:inline-block;
+	width: 100px;
+	height: 60px;
+	padding-top: 40px;
+	font-size: 20px;
+}
+.move {
+	/* 执行一个动画 animation 属性*/
+	animation: move 5s linear infinite;
+}
+@keyframes move{
+	0%{
+		top:30rem
+	}
+	50%{
+		top:35rem;
+	}
+	100%{
+		top: 30rem;
+	}
+}
+.xiaoxi{
+	position: absolute;
+	right:20px;
+	top:84rem;
+}
+.xiaoxi img{
+	margin-left: 20px;
+}
+.PK{
+	text-align: center;
+}
+.PK img{
+	margin-top: 50px;
+	width: 90%;
+	height: 180px;
+}
+.pk{
+	display: flex;
+	justify-content: space-around;
+	margin-top: -20px;
+}
+.pk img{
+	position: relative;
+	top: -110px;
+	vertical-align: middle;
+	border-radius: 50%;
+}
+.pk span{
+	font-size: 2em;
+	margin-top: -80px;
+}
+.riqi{
+	font-size: 30px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.kg{
+	margin-left: 30px;
+	margin-top: 20px;
+	font-size: 28px;
+	
+}
+.kg img{
+	height: 50px;
+	width: 50px;
+	vertical-align:middle
+}
+.kg .nl{
+	font-size: 1.5em;
+	margin-left: 15px;
+}
+.ta{
+	font-size: 1.5em;
+	margin-left: 20px;
+}
